@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+background: #F5F5F6;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    margin:0rem 5rem    ;
+    justify-content: space-around;
+    margin-right: 3rem;
+    
+
+}
+.navbar-part2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-item {
+    padding: 15px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    align-items: center;
+    letter-spacing: 0.06em;
+    margin: 0 1.25rem;
+    color: #959BA4;
+
+}
+
+.navbar-item:hover {
+    border-bottom: 2px solid black;
+    font-size: 14px;
+}
+
+.login {
+    width: 100px;
+    height: 10px;
+    background-color: white;
+    margin-right: 120px;
+    padding-bottom: 30px;
+ font-weight: 900;
+font-size: 13px;
+line-height: 13px;
+text-align: center;
+letter-spacing: 0.06em;
+color: #000000;
+
+}
+
+main {
+    margin: 4rem 20rem;
+}
+
+.boxs {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.select1 {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    background-color: rgb(25, 1, 240);
+    color: white;
+    width: 60%;
+    font-weight: 700;
+}
+
+.input1 {
+    border: none;
+    width: 259px;
+    height: 102px;
+    padding: 10px;
+
+    
+}
+.inputfield {
+    width: 259px;
+height: 102px;
+
+border: 1px solid #E5E5E5;
+border-radius: 3px;
+}
+
+.box1-span {
+width: 119px;
+height: 28px;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+color: #000000;
+position: relative;
+bottom: 20px;
+}
+
+.box2-span {
+    width: 120px;
+height: 28px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #9F9F9F;
+
+}
+
+.input1[type=number] {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;}
+
+
+.input2 {
+    border: none;
+    width: 259px;
+    height: 102px;
+    padding: 10px;
+
+}
+.input2[type=number] {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;}
+
+.middle-sec {
+   align-self: center;
+}
+.input1 {
+    background-color:rgba(0, 0, 0, 0.1);
+}

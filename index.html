@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exchange rate</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <img src="./images,logos/Asset 1@3x 1.svg" alt="svg" />
+        <section class="navbar-part2">
+          <a class="navbar-item" href="#">Bank</a>
+          <a class="navbar-item" href="#">Biznes</a>
+          <a class="navbar-item" href="#">Investisiyalar</a>
+          <a class="navbar-item" href="#">Sığorta</a>
+          <a class="navbar-item" href="#">Mobil</a>
+          <a class="navbar-item" href="#">Səyahət</a>
+          <a class="navbar-item" href="#">Əyləncə</a>
+        </section>
+
+        <a class="navbar-item login" href="#">Daxil Ol</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Valyuta Mübadiləsi</h1>
+      <form class="form">
+        <section class="boxs">
+          <section class="box1">
+            <h3 class="box1-span">Menim var</h3>
+
+            <select class="select1 firstCurrency" name="">
+              <option selected>RUB</option>
+              <option>USD</option>
+              <option>EUR</option>
+              <option>GBP</option>
+            </select>
+
+            <section class="inputfield">
+              <input class="input1" type="number" name="amount" id="amount" />
+
+              <span class="box1-span first-currency-value">1 RUB = 0.0135 USD</span>
+            </section>
+          </section>
+
+          <section class="middle-sec">
+            <span class="card-title" id="outputFirst">RUB</span>
+            <span>-</span>
+            <span class="card-title" id="outputSecond">USD</span>
+          </section>
+
+          <section class="box1">
+            <h3 class="box1-span">Almaq isteyirem</h3>
+
+            <select class="select1 secondCurrency" name="">
+              <option>RUB</option>
+              <option selected>USD</option>
+              <option>EUR</option>
+              <option>GBP</option>
+            </select>
+
+            <section class="inputfield">
+              <input
+                id="outputResult"
+                class="input1"
+                type="number"
+                name="amount"
+                id="amount"
+                readonly
+              />
+
+              <span class="box1-span second-currency-value">1 USD = 73.8896 RUB</span>
+            </section>
+          </section>
+        </section>
+      </form>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
